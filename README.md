@@ -225,27 +225,28 @@ Base URL: `http://localhost:8000`
 
 ### 🎯 Agent Decision Matrix
 
-  Query Type           Retrieval   Research   Validation
-  -------------------- ----------- ---------- ------------
-  Document-based       ✅          ❌         ✅
-  Latest information   ❌          ✅         ✅
-  Comparison queries   ✅          ✅         ✅
+| Query Type         | Retrieval | Research | Validation |
+| ------------------ | --------- | -------- | ---------- |
+| Document-based     | ✅         | ❌        | ✅          |
+| Latest information | ❌         | ✅        | ✅          |
+| Comparison queries | ✅         | ✅        | ✅          |
 
-------------------------------------------------------------------------
+---
 
 ## 🔧 Configuration
 
 ### ⚙️ Performance Optimization Matrix
 
-  Configuration       Speed       Accuracy    Cost
-  ------------------- ----------- ----------- ------
-  OpenAI Embeddings   Slow        Excellent   High
-  Local Embeddings    Fast        Good        Free
-  LRU Cache           Very Fast   Same        Same
-  SQLite              Fast        N/A         Free
-  FAISS               Faster      N/A         Free
+| Configuration     | Speed     | Accuracy  | Cost |
+| ----------------- | --------- | --------- | ---- |
+| OpenAI Embeddings | Slow      | Excellent | High |
+| Local Embeddings  | Fast      | Good      | Free |
+| LRU Cache         | Very Fast | Same      | Same |
+| SQLite            | Fast      | N/A       | Free |
+| FAISS             | Faster    | N/A       | Free |
 
-------------------------------------------------------------------------
+---
+
 
 ## 📁 Project Structure
 
