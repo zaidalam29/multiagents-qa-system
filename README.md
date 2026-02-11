@@ -1,29 +1,13 @@
-```{=html}
 <p align="center">
-```
-`<img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" />`{=html}
-`<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />`{=html}
-`<img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />`{=html}
-`<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />`{=html}
-`<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />`{=html}
-```{=html}
+  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="FastAPI">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI">
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
 </p>
-```
-```{=html}
-<h1 align="center">
-```
-🤖 AI-Powered Document Question Answering System
-```{=html}
-</h1>
-```
-```{=html}
-<h3 align="center">
-```
-Multi-Agent Architecture \| Vector Search \| Web Research \| Production
-Ready
-```{=html}
-</h3>
-```
+
+<h1 align="center">🤖 AI-Powered Document Question Answering System</h1>
+<h3 align="center">Multi-Agent Architecture | Vector Search | Web Research | Production Ready</h3>
 
 ------------------------------------------------------------------------
 
