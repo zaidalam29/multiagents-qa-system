@@ -7,8 +7,16 @@
 </p>
 
 <h1 align="center">🤖 AI-Powered Document Question Answering System</h1>
-<h4 align="center">By Zaid Alam - Full Stack Developer | Gen AI/ML Engineer | RAG | Agentic AI</h4>
-<h3 align="center">Multi-Agent Architecture | Vector Search | Web Research | Production Ready</h3>
+
+<h3 align="center">
+Multi-Agent Architecture • Vector Search • Web Research • Production Ready
+</h3>
+
+<p align="center">
+<b>Zaid Alam</b><br>
+Full Stack Developer | Gen AI/ML Engineer | RAG | Agentic AI
+</p>
+
 
 ------------------------------------------------------------------------
 
