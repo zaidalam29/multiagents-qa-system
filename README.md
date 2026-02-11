@@ -258,11 +258,6 @@ multiagents-qa-system/
 ├── 📁 vector_store/               # SQLite database files
 │   └── 📄 vectors.db              # Main database (created automatically)
 │
-├── 📁 tests/                      # Unit and integration tests
-│   ├── 📄 test_upload.py
-│   ├── 📄 test_query.py
-│   └── 📄 test_agents.py
-│
 ├── 📁 docs/                       # Additional documentation
 │   └── 📄 architecture.md
 │
@@ -276,14 +271,6 @@ multiagents-qa-system/
 └── 📄 .gitignore                  # Git ignore rules
 ```
 
-
-------------------------------------------------------------------------
-
-## 🧪 Testing
-
-``` bash
-pytest
-```
 
 ------------------------------------------------------------------------
 
@@ -314,17 +301,21 @@ docker run -p 8000:8000 multiagents-qa-system
 ```
 
 ------------------------------------------------------------------------
-
 ## ❓ Troubleshooting
 
-  Issue            Solution
-  ---------------- -----------------------
-  OpenAI errors    Verify API key
-  Slow responses   Enable caching
-  Upload failure   Check file size limit
+| Issue          | Solution              |
+| -------------- | --------------------- |
+| OpenAI errors  | Verify API key        |
+| Slow responses | Enable caching        |
+| Upload failure | Check file size limit |
 
-------------------------------------------------------------------------
+---
 
 ## 📄 License
 
-MIT License © 2026 By Zaid Alam - Full Stack Developer + Gen AI/ML Engineer + RAG + Agentic AI Engineer
+MIT License © 2026
+
+**Zaid Alam**
+Full Stack Developer • Gen AI/ML Engineer • RAG • Agentic AI Engineer
+
+🌐 https://zaidalam.in
