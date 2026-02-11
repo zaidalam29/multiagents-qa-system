@@ -7,7 +7,7 @@
 </p>
 
 <h1 align="center">🤖 AI-Powered Document Question Answering System</h1>
-<h3><br> By Zaid Alam - Full Stack Developer | Gen AI/ML Engineer | RAG | Agentic AI</h3>
+<h4 align="center">By Zaid Alam - Full Stack Developer | Gen AI/ML Engineer | RAG | Agentic AI</h4>
 <h3 align="center">Multi-Agent Architecture | Vector Search | Web Research | Production Ready</h3>
 
 ------------------------------------------------------------------------
@@ -249,46 +249,49 @@ Base URL: `http://localhost:8000`
 
 ## 📁 Project Structure
 
+```
 multiagents-qa-system/
 │
 ├── 📁 app/
 │   ├── 📄 __init__.py
 │   ├── 📄 main.py                 # FastAPI application (endpoints, middleware, lifespan)
-│   ├── 📄 config.py              # Configuration management (env vars, settings)
-│   ├── 📄 vector_store.py        # Vector database operations (SQLite/FAISS)
-│   ├── 📄 file_processor.py      # PDF/TXT processing (chunking, text extraction)
+│   ├── 📄 config.py               # Configuration management (env vars, settings)
+│   ├── 📄 vector_store.py         # Vector database operations (SQLite/FAISS)
+│   ├── 📄 file_processor.py       # PDF/TXT processing (chunking, text extraction)
 │   │
 │   ├── 📁 agents/
 │   │   ├── 📄 __init__.py
-│   │   ├── 📄 orchestrator.py    # Main orchestrator agent (decision making)
-│   │   ├── 📄 retrieval_agent.py # Document retrieval agent (vector search)
-│   │   ├── 📄 research_agent.py  # Web research agent (DuckDuckGo)
+│   │   ├── 📄 orchestrator.py     # Main orchestrator agent (decision making)
+│   │   ├── 📄 retrieval_agent.py  # Document retrieval agent (vector search)
+│   │   ├── 📄 research_agent.py   # Web research agent (DuckDuckGo)
 │   │   └── 📄 validation_agent.py # Answer validation agent (quality check)
 │   │
 │   └── 📁 utils/
 │       ├── 📄 __init__.py
-│       ├── 📄 guardrails.py      # Content validation (toxicity, PII, harmful)
-│       └── 📄 security.py        # API key authentication
+│       ├── 📄 guardrails.py       # Content validation (toxicity, PII, harmful)
+│       └── 📄 security.py         # API key authentication
 │
-├── 📁 vector_store/              # SQLite database files
-│   └── 📄 vectors.db            # Main database (created automatically)
+├── 📁 vector_store/               # SQLite database files
+│   └── 📄 vectors.db              # Main database (created automatically)
 │
-├── 📁 tests/                    # Unit and integration tests
+├── 📁 tests/                      # Unit and integration tests
 │   ├── 📄 test_upload.py
 │   ├── 📄 test_query.py
 │   └── 📄 test_agents.py
 │
-├── 📁 docs/                     # Additional documentation
+├── 📁 docs/                       # Additional documentation
 │   └── 📄 architecture.md
 │
-├── 📄 .env                      # Environment variables (create from .env.example)
-├── 📄 .env.example             # Example environment variables
-├── 📄 requirements.txt         # Python dependencies
-├── 📄 Dockerfile              # Docker configuration
-├── 📄 docker-compose.yml      # Docker compose configuration
-├── 📄 README.md              # This file
-├── 📄 LICENSE                # MIT License
-└── 📄 .gitignore            # Git ignore rules
+├── 📄 .env                        # Environment variables (create from .env.example)
+├── 📄 .env.example                # Example environment variables
+├── 📄 requirements.txt            # Python dependencies
+├── 📄 Dockerfile                  # Docker configuration
+├── 📄 docker-compose.yml          # Docker compose configuration
+├── 📄 README.md                   # This file
+├── 📄 LICENSE                     # MIT License
+└── 📄 .gitignore                  # Git ignore rules
+```
+
 
 ------------------------------------------------------------------------
 
