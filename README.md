@@ -7,6 +7,7 @@
 </p>
 
 <h1 align="center">🤖 AI-Powered Document Question Answering System</h1>
+<h3><br> By Zaid Alam - Full Stack Developer | Gen AI/ML Engineer | RAG | Agentic AI</h3>
 <h3 align="center">Multi-Agent Architecture | Vector Search | Web Research | Production Ready</h3>
 
 ------------------------------------------------------------------------
@@ -201,14 +202,15 @@ VECTOR_DB_TYPE=sqlite
 
 Base URL: `http://localhost:8000`
 
-  Method   Endpoint               Description                   Auth Required
-  -------- ---------------------- ----------------------------- ---------------
-  POST     /api/v1/upload/        Upload and process document   ✅
-  POST     /api/v1/query/         Query documents               ✅
-  GET      /api/v1/collections/   List collections              ✅
-  GET      /health                Health check                  ❌
-  GET      /docs                  Swagger UI                    ❌
-  GET      /redoc                 ReDoc UI                      ❌
+| Method | Endpoint             | Description      | Auth |
+| ------ | -------------------- | ---------------- | ---- |
+| POST   | /api/v1/upload/      | Upload document  | ✅    |
+| POST   | /api/v1/query/       | Ask question     | ✅    |
+| GET    | /api/v1/collections/ | List collections | ✅    |
+| GET    | /health              | Health check     | ❌    |
+| GET    | /docs                | Swagger UI       | ❌    |
+| GET    | /redoc               | ReDoc            | ❌    |
+
 
 ------------------------------------------------------------------------
 
