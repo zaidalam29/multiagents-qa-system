@@ -34,52 +34,35 @@
 
 ### 🎯 Core Capabilities
 
-  -----------------------------------------------------------------------
-  Feature                       Description
-  ----------------------------- -----------------------------------------
-  📄 Document Processing        Upload and process PDF, TXT, MD files
-                                with intelligent chunking (1000 chars
-                                with 200 overlap)
+| Feature                | Description                                                                                   |
+| ---------------------- | --------------------------------------------------------------------------------------------- |
+| 📄 Document Processing | Upload and process PDF, TXT, MD files with intelligent chunking (1000 chars with 200 overlap) |
+| 🧠 Vector Search       | Semantic search using OpenAI embeddings or local Sentence Transformers                        |
+| 🤖 Multi-Agent System  | 4 specialized AI agents working in concert                                                    |
+| 🌐 Web Research        | DuckDuckGo integration for real-time information                                              |
+| ⚡ Fast Responses       | LRU caching, batch processing, connection pooling                                             |
+| 🔒 Enterprise Security | API key authentication, input sanitization, guardrails                                        |
+| 🔄 LLM Fallback        | Automatic failover from OpenAI to OpenRouter                                                  |
+| 📊 Collections         | Organize documents into collections                                                           |
+| 📈 Scalable            | SQLite, FAISS, or ChromaDB support                                                            |
 
-  🧠 Vector Search              Semantic search using OpenAI embeddings
-                                or local Sentence Transformers
-
-  🤖 Multi-Agent System         4 specialized AI agents working in
-                                concert
-
-  🌐 Web Research               DuckDuckGo integration for real-time
-                                information
-
-  ⚡ Fast Responses             LRU caching, batch processing, connection
-                                pooling
-
-  🔒 Enterprise Security        API key authentication, input
-                                sanitization, guardrails
-
-  🔄 LLM Fallback               Automatic failover from OpenAI to
-                                OpenRouter
-
-  📊 Collections                Organize documents into collections
-
-  📈 Scalable                   SQLite, FAISS, or ChromaDB support
-  -----------------------------------------------------------------------
-
-------------------------------------------------------------------------
+---
 
 ### 🛠 Tech Stack
 
-  Component       Technology                        Version
-  --------------- --------------------------------- ----------
-  Framework       FastAPI                           0.104+
-  Language        Python                            3.10+
-  Vector DB       SQLite + FAISS                    Built-in
-  Embeddings      OpenAI / Sentence Transformers    \-
-  LLM             GPT-4 / Claude / Gemini / Llama   \-
-  Web Search      DuckDuckGo                        \-
-  Deployment      Docker, Uvicorn                   \-
-  Documentation   Swagger UI, ReDoc                 Built-in
+| Component     | Technology                      | Version  |
+| ------------- | ------------------------------- | -------- |
+| Framework     | FastAPI                         | 0.104+   |
+| Language      | Python                          | 3.10+    |
+| Vector DB     | SQLite + FAISS                  | Built-in |
+| Embeddings    | OpenAI / Sentence Transformers  | -        |
+| LLM           | GPT-4 / Claude / Gemini / Llama | -        |
+| Web Search    | DuckDuckGo                      | -        |
+| Deployment    | Docker, Uvicorn                 | -        |
+| Documentation | Swagger UI, ReDoc               | Built-in |
 
-------------------------------------------------------------------------
+---
+
 
 ## 🏗️ Architecture
 
